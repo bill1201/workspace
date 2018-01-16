@@ -1,0 +1,15 @@
+package edu.fju.exam;
+
+public class Employee {
+	int salary;
+	int plus=0;
+	
+
+public Employee(int salary){
+	this.salary=salary;
+}
+public void print(){
+	int total =(int)(salary+plus);
+	System.out.println(total);
+}
+}
